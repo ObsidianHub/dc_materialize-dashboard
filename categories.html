@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Materialize Theme</title>
+</head>
+
+<body class="grey lighten-4">
+  <nav class="deep-purple darken-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Dashboard</a>
+        <a href="#" class="button-collapse show-on-large right" data-activates="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li class="active"><a href="categories.html">Categories</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="users.html">Users</a></li>
+        </ul>
+        <!-- Side nav -->
+        <ul class="deep-purple darken-3 side-nav" id="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="img/purple.jpg" alt="Purple">
+              </div>
+              <a href="#">
+                <img src="img/person1.jpg" alt="Person1" class="circle">
+              </a>
+              <a href="#">
+                <span class="name white-text">John Spark</span>
+              </a>
+              <a href="#">
+                <span class="email white-text">john.spark@gmail.com</span>
+              </a>
+            </div>
+          </li>
+          <li><a class="white-text" href="index.html"><i class="white-text material-icons">dashboard</i> Dashboard</a></li>
+          <li><a class="white-text" href="posts.html">Posts</a></li>
+          <li><a class="white-text" href="categories.html">Categories</a></li>
+          <li><a class="white-text" href="comments.html">Comments</a></li>
+          <li><a class="white-text" href="users.html">Users</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader white-text">Account Controls</a></li>
+          <li><a class="white-text" href="login.html" class="waves-effect">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section: Categories -->
+  <section class="section section-categories grey lighten-4">
+      <div class="container">
+          <div class="row">
+              <div class="col s12">
+                  <div class="card">
+                      <div class="card-content">
+                          <span class="card-title">Categories</span>
+                          <table class="striped">
+                            <thead>
+                              <tr>
+                                <th>Title</th>
+                                <th>Date Created</th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Web Development</td>
+                                <td>Jan 1, 2018</td>
+                                <td>
+                                  <a href="details.html" class="btn deep-purple lighten-2 hide-on-small-and-down">Details</a>
+                                  <a class="hide-on-med-and-up" href="details.html"><i class="material-icons deep-purple circle white-text material-icons">add</i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Graphic Design</td>
+                                <td>Jan 2, 2018</td>
+                                <td>
+                                  <a href="details.html" class="btn deep-purple lighten-2 hide-on-small-and-down">Details</a>
+                                  <a class="hide-on-med-and-up" href="details.html"><i class="material-icons deep-purple circle white-text material-icons">add</i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Tech Gadgets</td>
+                                <td>Jan 3, 2018</td>
+                                <td>
+                                  <a href="details.html" class="btn deep-purple lighten-2 hide-on-small-and-down">Details</a>
+                                  <a class="hide-on-med-and-up" href="details.html"><i class="material-icons deep-purple circle white-text material-icons">add</i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Other</td>
+                                <td>Jan 5, 2018</td>
+                                <td>
+                                  <a href="details.html" class="btn deep-purple lighten-2 hide-on-small-and-down">Details</a>
+                                  <a class="hide-on-med-and-up" href="details.html"><i class="material-icons deep-purple circle white-text material-icons">add</i></a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                      </div>
+                        <ul class="pagination center my-pagination">
+                            <li class="disabled">
+                                <a href="#!" class="deep-purple-text">
+                                    <i class="material-icons">chevron_left</i>
+                                </a>
+                            </li>
+                            <li class="active deep-purple lighten-2">
+                                <a href="#!" class="white-text">1</a>
+                            </li>
+                            <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">2</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">3</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">4</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">5</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">
+                                  <i class="material-icons">chevron_right</i>
+                              </a>
+                          </li>
+                        </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section deep-purple darken-2 white-text center">
+    <p>Dashboard Panel Copyright &copy; 2019</p>
+  </footer>
+
+  <!-- Fixed Action Buttons -->
+  <div class="fixed-action-btn">
+    <a href="#category-modal" class="modal-trigger btn-floating btn-large red">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+  <!-- Add Category Modal -->
+  <div class="modal" id="category-modal">
+    <div class="modal-content">
+      <h4>Add Category</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="title">
+          <label for="title">Title</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn deep-purple white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preloader -->
+  <div class="loader preloader-wrapper big active">
+    <div class="spinner-layer spinner-deep-purple-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    // Hide sections
+    $('.section').hide();
+
+    setTimeout(function() {
+      $(document).ready(function () {
+        // Show sections
+        $('.section').fadeIn();
+
+        // Hide preloader
+        $('.loader').fadeOut();
+
+        // Init Side Nav
+        $('.button-collapse').sideNav();
+
+        // Init Modal
+        $('.modal').modal();
+
+      });
+    }, 1000);
+
+  </script>
+</body>
+
+</html>

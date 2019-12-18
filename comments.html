@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Materialize Theme</title>
+</head>
+
+<body class="grey lighten-4">
+  <nav class="deep-purple darken-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Dashboard</a>
+        <a href="#" class="button-collapse show-on-large right" data-activates="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li class="active"><a href="comments.html">Comments</a></li>
+          <li><a href="users.html">Users</a></li>
+        </ul>
+        <!-- Side nav -->
+        <ul class="deep-purple darken-3 side-nav" id="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="img/purple.jpg" alt="Purple">
+              </div>
+              <a href="#">
+                <img src="img/person1.jpg" alt="Person1" class="circle">
+              </a>
+              <a href="#">
+                <span class="name white-text">John Spark</span>
+              </a>
+              <a href="#">
+                <span class="email white-text">john.spark@gmail.com</span>
+              </a>
+            </div>
+          </li>
+          <li><a class="white-text" href="index.html"><i class="white-text material-icons">dashboard</i> Dashboard</a></li>
+          <li><a class="white-text" href="posts.html">Posts</a></li>
+          <li><a class="white-text" href="categories.html">Categories</a></li>
+          <li><a class="white-text" href="comments.html">Comments</a></li>
+          <li><a class="white-text" href="users.html">Users</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader white-text">Account Controls</a></li>
+          <li><a class="white-text" href="login.html" class="waves-effect">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section: Comments -->
+  <section class="section section-comments grey lighten-4">
+      <div class="container">
+          <div class="row">
+              <div class="col s12">
+                  <div class="card">
+                      <div class="card-content">
+                          <span class="card-title">Comments</span>
+                          <table class="striped">
+                            <tbody>
+                              <tr>
+                                <td width="70">
+                                    <img src="img/person1.jpg" alt="Person1" class="responsive-img circle" style="width: 40px;margin-left: 10px;">
+                                </td>
+                                <td>
+                                  This comment is written by John Spark. It contains a lot of information, since it was written by the owner of this platform
+                                </td>
+                                <td>
+                                  <a href="#!" class="green-text">
+                                      <i class="material-icons">done</i>
+                                  </a>
+                                  <a href="#!" class="red-text">
+                                    <i class="material-icons">close</i>
+                                </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="70">
+                                    <img src="img/person2.jpg" alt="Person2" class="responsive-img circle" style="width: 40px;margin-left: 10px;">
+                                </td>
+                                <td>
+                                  This comment is written by Steve Cranch. It contains even more information, as Steve wrote to the owner of the answer. A lot of information, commentary in general
+                                </td>
+                                <td>
+                                  <a href="#!" class="green-text">
+                                      <i class="material-icons">done</i>
+                                  </a>
+                                  <a href="#!" class="red-text">
+                                    <i class="material-icons">close</i>
+                                </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="70">
+                                    <img src="img/person3.jpg" alt="Person3" class="responsive-img circle" style="width: 40px;margin-left: 10px;">
+                                </td>
+                                <td>
+                                  This comment is written by Ellen Spark. She's wrote... nothing. Just check-in here
+                                </td>
+                                <td>
+                                  <a href="#!" class="green-text">
+                                      <i class="material-icons">done</i>
+                                  </a>
+                                  <a href="#!" class="red-text">
+                                    <i class="material-icons">close</i>
+                                </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="70">
+                                    <img src="img/person4.jpg" alt="Person4" class="responsive-img circle" style="width: 40px;margin-left: 10px;">
+                                </td>
+                                <td>
+                                  And this man recently joined the platform and hesitates to write a lot
+                                </td>
+                                <td>
+                                  <a href="#!" class="green-text">
+                                      <i class="material-icons">done</i>
+                                  </a>
+                                  <a href="#!" class="red-text">
+                                    <i class="material-icons">close</i>
+                                </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                      </div>
+                        <ul class="pagination center my-pagination">
+                            <li class="disabled">
+                                <a href="#!" class="deep-purple-text">
+                                    <i class="material-icons">chevron_left</i>
+                                </a>
+                            </li>
+                            <li class="active deep-purple lighten-2">
+                                <a href="#!" class="white-text">1</a>
+                            </li>
+                            <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">2</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">3</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">4</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">5</a>
+                          </li>
+                          <li class="waves-effect">
+                              <a href="#!" class="deep-purple-text">
+                                  <i class="material-icons">chevron_right</i>
+                              </a>
+                          </li>
+                        </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Add Category Modal -->
+  <div class="modal" id="category-modal">
+    <div class="modal-content">
+      <h4>Add Category</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="title">
+          <label for="title">Title</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn deep-purple white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preloader -->
+  <div class="loader preloader-wrapper big active">
+    <div class="spinner-layer spinner-deep-purple-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    // Hide sections
+    $('.section').hide();
+
+    setTimeout(function() {
+      $(document).ready(function () {
+        // Show sections
+        $('.section').fadeIn();
+
+        // Hide preloader
+        $('.loader').fadeOut();
+
+        // Init Side Nav
+        $('.button-collapse').sideNav();
+
+        // Init Modal
+        $('.modal').modal();
+
+      });
+    }, 1000);
+
+  </script>
+</body>
+
+</html>
